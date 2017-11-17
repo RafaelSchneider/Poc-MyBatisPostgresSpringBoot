@@ -1,0 +1,34 @@
+ext.deps = [
+    springBootVersion:'1.2.3.RELEASE'
+]
+
+allprojects {    
+    apply plugin: 'java'
+    apply plugin: 'eclipse'
+    version = '1.0'
+    sourceCompatibility = 1.8    
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {    
+		compile("org.springframework.boot:spring-boot-starter-jetty:"+deps.springBootVersion)
+	    compile("org.springframework.boot:spring-boot-starter-actuator:"+deps.springBootVersion)
+	    compile("org.springframework.boot:spring-boot-starter-web:"+deps.springBootVersion){
+	        exclude module: "spring-boot-starter-tomcat:"+deps.springBootVersion
+	    }
+	    compile("com.wordnik:swagger-jersey2-jaxrs:1.5.1-M2")
+	    compile("org.springframework.boot:spring-boot-starter-jersey:"+deps.springBootVersion)
+        compile group: 'org.mybatis', name: 'mybatis', version: '3.2.2'
+        //compile group: 'org.postgresql', name: 'postgresql', version: '9.3-1103'
+        //compile("https://repo1.maven.org/maven2/org/postgresql/postgresql/9.3-1103-jdbc3/postgresql-9.3-1103-jdbc3.jar")
+        compile group: 'postgresql', name: 'postgresql', version: '9.0-801.jdbc4'
+
+    }
+}
+
+subprojects {
+    dependencies {    
+        testCompile("org.springframework.boot:spring-boot-starter-test:"+deps.springBootVersion)
+    }
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.wordnik:swagger-core:1.5.1-M2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wordnik/swagger-core/1.5.1-M2/e2c568cddef710cdb18de3398b83ae753986311b/swagger-core-1.5.1-M2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wordnik/swagger-core/1.5.1-M2/1cf8b694a2368d53be6418a4cf21a968cd74a1e0/swagger-core-1.5.1-M2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

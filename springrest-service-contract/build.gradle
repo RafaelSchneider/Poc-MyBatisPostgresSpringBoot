@@ -1,0 +1,7 @@
+dependencies {
+	compile project(":springrest-service-impl")
+	compile("org.springframework.boot:spring-boot-starter-jersey:"+deps.springBootVersion)
+	compile("com.wordnik:swagger-jersey2-jaxrs:1.5.1-M2")
+	runtime("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.5.2")
+	compile("org.springframework.boot:spring-boot-starter-jetty:"+deps.springBootVersion)	
+}

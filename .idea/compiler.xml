@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="MyBatis_main" target="1.8" />
+      <module name="MyBatis_test" target="1.8" />
+      <module name="springrest-service-app_main" target="1.8" />
+      <module name="springrest-service-app_test" target="1.8" />
+      <module name="springrest-service-contract_main" target="1.8" />
+      <module name="springrest-service-contract_test" target="1.8" />
+      <module name="springrest-service-impl_main" target="1.8" />
+      <module name="springrest-service-impl_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyBatis.iml" filepath="$PROJECT_DIR$/.idea/modules/MyBatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyBatis_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MyBatis_main.iml" group="MyBatis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyBatis_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MyBatis_test.iml" group="MyBatis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springrest-service-app/springrest-service-app.iml" filepath="$PROJECT_DIR$/.idea/modules/springrest-service-app/springrest-service-app.iml" group="springrest-service-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springrest-service-app/springrest-service-app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springrest-service-app/springrest-service-app_main.iml" group="springrest-service-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springrest-service-app/springrest-service-app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springrest-service-app/springrest-service-app_test.iml" group="springrest-service-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springrest-service-contract/springrest-service-contract.iml" filepath="$PROJECT_DIR$/.idea/modules/springrest-service-contract/springrest-service-contract.iml" group="springrest-service-contract" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springrest-service-contract/springrest-service-contract_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springrest-service-contract/springrest-service-contract_main.iml" group="springrest-service-contract" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springrest-service-contract/springrest-service-contract_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springrest-service-contract/springrest-service-contract_test.iml" group="springrest-service-contract" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springrest-service-impl/springrest-service-impl.iml" filepath="$PROJECT_DIR$/.idea/modules/springrest-service-impl/springrest-service-impl.iml" group="springrest-service-impl" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springrest-service-impl/springrest-service-impl_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springrest-service-impl/springrest-service-impl_main.iml" group="springrest-service-impl" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springrest-service-impl/springrest-service-impl_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springrest-service-impl/springrest-service-impl_test.iml" group="springrest-service-impl" />
+    </modules>
+  </component>
+</project>

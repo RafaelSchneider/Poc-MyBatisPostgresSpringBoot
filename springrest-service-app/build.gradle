@@ -1,0 +1,16 @@
+buildscript {
+    repositories { jcenter() }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:"+deps.springBootVersion)
+    }
+}
+
+apply plugin: 'spring-boot'
+
+dependencies {    
+	compile project(":springrest-service-contract")
+    compile("org.springframework.boot:spring-boot-starter-web:"+deps.springBootVersion){
+    	  exclude module: "spring-boot-starter-tomcat:"+deps.springBootVersion
+ 	}
+    compile("org.springframework.boot:spring-boot-starter-jetty:"+deps.springBootVersion)    
+}

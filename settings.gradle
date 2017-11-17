@@ -1,0 +1,1 @@
+include "springrest-service-app", "springrest-service-contract", "springrest-service-impl"

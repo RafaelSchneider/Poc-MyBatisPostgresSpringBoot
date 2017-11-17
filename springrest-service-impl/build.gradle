@@ -1,0 +1,16 @@
+configurations {
+	jaxws
+}
+
+dependencies {
+	compile("org.springframework.boot:spring-boot-starter:"+deps.springBootVersion)
+    compile("org.springframework.boot:spring-boot-starter-jdbc:"+deps.springBootVersion){
+   		 exclude module: "tomcat-jdbc"
+    }
+    compile("org.springframework:spring-jdbc")
+    compile("org.springframework:spring-tx")
+    compile("org.apache.httpcomponents:httpclient:4.5")
+    compile("mysql:mysql-connector-java:5.1.6")
+    jaxws ('com.sun.xml.ws:jaxws-tools:2.2.10')
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+}
