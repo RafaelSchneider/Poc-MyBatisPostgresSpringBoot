@@ -11,7 +11,9 @@ import javax.ws.rs.core.UriInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import br.com.rest.springrest.contract.v1.binder.HelloBinder;
+import br.com.rest.springrest.contract.v1.binder;
 import br.com.rest.springrest.contract.v1.model.Hello;
+import br.com.rest.springrest.contract.v1.model.Pessoa;
 import br.com.rest.springrest.impl.SpringRestService;
 
 import com.wordnik.swagger.annotations.Api;
@@ -43,5 +45,12 @@ public class RestEndpoint {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Hello hello2(@PathParam("id") Long id) {
 		return helloBinder.bindFromModel(springRestService.getHelloModel(id));
+	}
+
+	@GET
+	@Path("/pessoa/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Pessoa pessoa2(){
+
 	}
 }
